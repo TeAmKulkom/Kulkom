@@ -94,7 +94,7 @@ echo -e "\033[38;5;208m"
 echo -e "                                                  "
 echo -e "\033[0;00m"
 echo -e "\e[36m"
-./tg -s ./Kulkom.lua -p PROFILE --bot=$token
+./tg -s ./Kulkom.lua -p PROFILE -bot=$token
 done
 ]])  
 file:close()  
